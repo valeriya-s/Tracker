@@ -49,7 +49,6 @@ while True:
         
         i = 0
         for num1 in range(11,29):
-            # i dont wanna include hand shit
             if num1 in range(17, 23):
                 ignore = results.pose_landmarks.landmark[mppose.PoseLandmark(num1)].x
             else:
@@ -72,7 +71,6 @@ while True:
 
 
         k = 0
-        print("yo")
         for numy in xList:
 
             xBytes = bytes(str(xList[k]),'utf-8')
